@@ -16,7 +16,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { Recipe } from './recipes/recipe.model';
 import { AppRoutingModule } from './/app-routing.module';
-
+  
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
   { path: 'recipes', component: RecipesComponent },
